@@ -9,7 +9,7 @@ class ProductProvider extends Component {
       products: [],
       detailProduct
   };
-  componentDidCatch(){
+  componentDidMount(){
     this.setProducts();
   }
   setProducts = () => {
